@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
   [6, 4, 2]
 ]
 
-def board(board)
+def board
   @board
 end
 
