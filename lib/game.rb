@@ -31,7 +31,7 @@ def draw?
 end
 
 def over?
-  @board.over?
+  @board.full?
 end
 
 end
