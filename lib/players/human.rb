@@ -6,7 +6,6 @@ module Players
     def move(input)
       puts "Please enter your selection"
       gets.strip
-
     end
 
   end
