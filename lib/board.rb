@@ -37,7 +37,7 @@ end
 
 def valid_move?(input)
   input.to_i=user_input
-  between?(1,9) && !taken?
+  if user_input.between?(1,9) && !taken?
 end
 
 
