@@ -37,6 +37,7 @@ def taken?(character)
     true
   else
     false
+  end
 end
 
 end
