@@ -32,7 +32,7 @@ def turn_count
 end
 
 def taken?(input)
-  
+
 end
 
 end
