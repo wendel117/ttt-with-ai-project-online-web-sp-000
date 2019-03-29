@@ -27,10 +27,11 @@ def won?
 end
 
 def draw?
+  
 end
 
 def over?
-
+  @board.over?
 end
 
 end
