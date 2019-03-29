@@ -31,7 +31,7 @@ def turn_count
   cells.count{|character| character == "X" || character == "x" || character == "O" || character == "o"}
 end
 
-def taken?
+def taken?(character)
   cells.each{|character| character == "X" || character == "x" || character == "O" || character == "o"}
 end
 
