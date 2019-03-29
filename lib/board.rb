@@ -23,4 +23,7 @@ def position(input)
   cells[input.to_i-1] #to_i turns string to integer
 end
 
+def full
+end
+
 end
