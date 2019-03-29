@@ -45,6 +45,10 @@ def winner
 end
 
 def turn
+   board.display
+   user_input = self.current_player.move(@board)
+   self.board.valid_move?(user_input) ? self.board.update(user_input, self.current_player) : turn
+ end
 
 
 #def turn
