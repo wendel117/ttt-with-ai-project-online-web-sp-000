@@ -24,15 +24,15 @@ def position(input)
 end
 
 def full?
-  cells.all?{|character| character == "X" || character == "x" || character == "O" || character == "o"}
+  cells.all?{|character| character == "X" || character == "O"}
 end
 
 def turn_count
-  cells.count{|character| character == "X" || character == "x" || character == "O" || character == "o"}
+  cells.count{|character| character == "X" || character == "O"}
 end
 
 def taken?(input) #using same variable as def position bc we are using it as a helper
-  position(input)=="X" || position(input)=="O" || position(input)=="x" || position(input)=="o"
+  position(input)=="X" || position(input)=="O"
 end
 
 end
