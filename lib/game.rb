@@ -1,4 +1,5 @@
 class Game
+  attr_accessor :board
 
 WIN_COMBINATIONS = [
   [0, 1, 2],
@@ -11,5 +12,7 @@ WIN_COMBINATIONS = [
   [6, 4, 2]
 ]
 
+def board(board)
+  
 
 end
