@@ -36,7 +36,7 @@ def taken?(input) #using same variable as def position bc we are using it as a h
 end
 
 def valid_move?(input)
-  position(input)==[1..9]
+  position(input.to_i)==[1..9]
 end
 
 
