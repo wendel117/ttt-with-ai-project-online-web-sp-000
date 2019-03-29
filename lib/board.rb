@@ -35,4 +35,7 @@ def taken?(input) #using same variable as def position bc we are using it as a h
   position(input)=="X" || position(input)=="O"
 end
 
+def valid_move?(input)
+  position(input)==[1..9]
+
 end
