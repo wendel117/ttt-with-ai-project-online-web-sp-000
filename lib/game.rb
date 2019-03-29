@@ -50,7 +50,12 @@ def turn
    self.board.valid_move?(user_input) ? self.board.update(user_input, self.current_player) : turn
  end
 
-
+ def play
+    banner
+    turn until over?
+    board.display
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
+  end
 #def turn
 #  puts "Please choose a number 1-9:"
 #  user_input = gets.chomp
