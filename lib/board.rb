@@ -32,7 +32,7 @@ def turn_count
 end
 
 def taken?(input) #using same variable as def position bc we are using it as a helper
-  position(input)=="X" || position(input)=="O"
+  position(input)=="X" || position(input)=="O" || position(input)=="x" || position(input)=="o"
 end
 
 end
