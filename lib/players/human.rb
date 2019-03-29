@@ -3,7 +3,7 @@ module Players
 
     attr_accessor :board
 
-    def move(input)
+    def move(board)
       puts "Please enter your selection"
       gets.strip
     end
