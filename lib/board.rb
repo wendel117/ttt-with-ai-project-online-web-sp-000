@@ -11,8 +11,8 @@ def reset!
   Array
 end
 
-def display
-  array
+def display(board)
+  
 end
 
 
