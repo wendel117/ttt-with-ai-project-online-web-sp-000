@@ -44,5 +44,12 @@ def winner
   end
 end
 
+def turn
+  
+end
+
+def play
+  
+end
 
 end
