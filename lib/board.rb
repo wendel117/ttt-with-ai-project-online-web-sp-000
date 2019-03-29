@@ -36,7 +36,7 @@ def taken?(input) #using same variable as def position bc we are using it as a h
 end
 
 def valid_move?(input)
-  input.to_i.between?(1, 9) && !position(input)=="X" || !position(input)=="O"
+  input.to_i.between?(1, 9) && !position(input)=="X" || position(input)=="O"
 end
 
 
