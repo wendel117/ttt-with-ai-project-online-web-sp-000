@@ -31,7 +31,6 @@ end
 
 def draw?
   @board.full? && !won?
-
 end
 
 def over?
