@@ -45,11 +45,7 @@ def winner
 end
 
 def turn
-  puts "Please choose a number 1-9:"
-  user_input = gets.chomp
-  input = user_input.to_i-1
-  if @board.valid_move?(input)
-end
+
 
 #def turn
 #  puts "Please choose a number 1-9:"
