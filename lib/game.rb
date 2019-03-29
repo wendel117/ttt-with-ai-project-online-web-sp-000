@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
   [6, 4, 2]
 ]
 
-def initialize
+def initialize(player_1, player_2, board)
 end
 
 
