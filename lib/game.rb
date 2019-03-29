@@ -14,6 +14,8 @@ WIN_COMBINATIONS = [
 
 def initialize
   @board=board
+  @player_1=player_1
+  @player_2=player_2
 end
 
 
