@@ -24,7 +24,7 @@ def position(input)
 end
 
 def full?
-  cells.all?
+  cells.all?{|character| character == "X" || character == "x" || character == "O" || character == "o"}
 end
 
 end
