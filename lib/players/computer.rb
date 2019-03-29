@@ -4,7 +4,7 @@ module Players
 
     def move
       @game.turn
-  
+
     end
   end
 
