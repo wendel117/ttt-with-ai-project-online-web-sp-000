@@ -43,5 +43,5 @@ def winner
 elsif !over?
   nil
 end
-
+end
 end
