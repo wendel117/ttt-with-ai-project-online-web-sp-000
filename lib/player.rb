@@ -7,7 +7,7 @@ def initialize(token)
   @token=token
 end
 
-def token
+def token=(token)
 
 end
 
