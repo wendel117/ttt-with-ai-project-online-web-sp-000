@@ -8,6 +8,7 @@ def initialize(token)
 end
 
 def token=(token)
+  @token.freeze
 end
 
 
