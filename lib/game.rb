@@ -13,6 +13,8 @@ WIN_COMBINATIONS = [
 ]
 
 def board(board)
-  
+  @board
+end
+
 
 end
