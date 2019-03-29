@@ -35,7 +35,7 @@ def draw?
 end
 
 def over?
-  @board.full?
+  draw? || won?
 end
 
 def winner
