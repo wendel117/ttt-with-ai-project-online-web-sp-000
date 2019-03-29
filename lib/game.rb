@@ -18,6 +18,6 @@ def initialize(player_1 = Players::Human.new("X"), player_2 = Players::Human.new
   @player_2 = player_2
 end
 
-
+def current_player
 
 end
