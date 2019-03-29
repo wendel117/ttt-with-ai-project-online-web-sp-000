@@ -38,6 +38,11 @@ end
 def valid_move?(input)
   input.to_i=user_input
   if user_input.between?(1,9) && !taken?
+    true
+  else
+    false
+  end
+end
 end
 
 
