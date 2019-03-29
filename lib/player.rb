@@ -8,7 +8,7 @@ def initialize(token)
 end
 
 def token
-  
+
 end
 
 
