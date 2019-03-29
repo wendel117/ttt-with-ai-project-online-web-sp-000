@@ -27,7 +27,7 @@ def won?
 end
 
 def draw?
-  
+
 end
 
 def over?
