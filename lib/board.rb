@@ -12,7 +12,7 @@ def reset!
 end
 
 def display(board)
-  
+
 end
 
 
