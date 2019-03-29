@@ -3,7 +3,7 @@ module Players
 
     attr_accessor :board
     def move(board)
-      
+
     end
 
   end
