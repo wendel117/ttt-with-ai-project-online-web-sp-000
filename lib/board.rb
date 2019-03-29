@@ -43,7 +43,6 @@ def valid_move?(input)
     false
   end
 end
-end
 
 
 
