@@ -1,6 +1,6 @@
 class Player
 
-attr_reader :token
+attr_reader :token #only a reader so they can't change after initialized
 
 
 def initialize(token)
