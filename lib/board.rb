@@ -28,7 +28,7 @@ def full?
 end
 
 def turn_count
-  
+  cells.count{|character| character == "X" || character == "x" || character == "O" || character == "o"}
 end
 
 end
