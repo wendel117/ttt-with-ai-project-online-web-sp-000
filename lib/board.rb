@@ -32,10 +32,10 @@ def turn_count
 end
 
 def taken?(character)
-  if cells.each{|character| character == "X" || character == "x" || character == "O" || character == "o"}
-    true
-  else
+  if cells.each{|character| character == " "}
     false
+  else
+    true
   end
 end
 
