@@ -27,4 +27,8 @@ def full?
   cells.all?{|character| character == "X" || character == "x" || character == "O" || character == "o"}
 end
 
+def turn_count
+  
+end
+
 end
