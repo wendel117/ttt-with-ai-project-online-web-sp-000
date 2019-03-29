@@ -23,7 +23,7 @@ def current_player
 end
 
 def won?
-  
+
 end
 
 def draw?
