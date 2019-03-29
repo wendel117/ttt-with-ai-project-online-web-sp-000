@@ -20,7 +20,7 @@ def display
 end
 
 def position(input)
-  input=gets.chomp
+  cells[input.to_i-1] #to_i turns string to integer
 
 
 end
