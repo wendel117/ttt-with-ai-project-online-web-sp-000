@@ -37,5 +37,8 @@ end
 
 def valid_move?(input)
   position(input)==[1..9]
+end
+
+
 
 end
