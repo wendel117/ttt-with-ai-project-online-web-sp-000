@@ -4,7 +4,7 @@ attr_accessor :token
 
 
 def initialize(token)
-  @token=token.freeze
+  @token=token
 end
 
 
