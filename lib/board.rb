@@ -24,7 +24,7 @@ def position(input)
 end
 
 def full?
-  
+  cells.all?
 end
 
 end
