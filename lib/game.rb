@@ -45,7 +45,7 @@ def winner
 end
 
 def turn
-  valid_move?
+  @board.valid_move?
 end
 
 #def turn
