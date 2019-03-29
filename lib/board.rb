@@ -31,8 +31,8 @@ def turn_count
   cells.count{|character| character == "X" || character == "x" || character == "O" || character == "o"}
 end
 
-def taken?(character)
-
+def taken?(input)
+  
 end
 
 end
