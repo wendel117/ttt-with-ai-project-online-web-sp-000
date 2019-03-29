@@ -34,7 +34,7 @@ end
 def taken?(character)
   if cells.each{|character| character == "X" || character == "x" || character == "O" || character == "o"}
     true
-  else
+  elsif cells.each{|character| character == " "}
     false
   end
 end
