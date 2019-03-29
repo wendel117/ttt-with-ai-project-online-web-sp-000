@@ -7,7 +7,7 @@ module Players
       puts "Please enter your selection"
       gets.strip
     end
-
+  end
 
 
 
