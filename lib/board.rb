@@ -40,7 +40,7 @@ def valid_move?(input)
 end
 
 def update
-  
+
 end
 
 
