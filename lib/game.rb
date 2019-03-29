@@ -23,7 +23,7 @@ def current_player
 end
 
 def won?
-  WIN_COMBINATIONS.
+  WIN_COMBINATIONS.detect do |winner|
 end
 
 def draw?
